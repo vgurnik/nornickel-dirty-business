@@ -101,7 +101,7 @@ def degree_pollution(image, results, mode='max'):
 
 def process_image(image, model_path, calculate_degree=True):
     '''
-    Производит анализ изображения, строит карту загрязнения и <делает некоторые другие фичи>
+    Производит анализ изображения, строит карту загрязнения и определяет степень загрязнения
     Parameters
     ----------
     image : numpy.ndarray
